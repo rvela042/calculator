@@ -19,5 +19,5 @@ jobs:
           python -m pip install pytest
 
       - name: Run unittest
-        working-directory: calculator
+        working-directory: /
         run: python3 -m unittest discover -s . -p 'test_calc.py'
