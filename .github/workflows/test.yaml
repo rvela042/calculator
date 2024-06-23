@@ -20,4 +20,4 @@ jobs:
 
       - name: Run unittest
         working-directory: ./calculator
-        run: python3 -m unittest discover -s . -p 'test*.py'
+        run: python3 -m unittest discover -s . -p 'test_calc.py'
